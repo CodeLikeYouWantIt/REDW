@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import Header from '../Header/Header'
-import './App.css';
+import Home from '../Page/Home/Home'
+import NavBar from '../NavBar/NavBar'
+import './App.css'
+;
 
 class App extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <NavBar/>
+                <Home/>
             </div>
         );
     }

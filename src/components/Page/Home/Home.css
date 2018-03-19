@@ -1,0 +1,11 @@
+.Header {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height:100vh;
+  background-image: url("../../../images/Pages/Home/worship-blackwhite.jpg");
+  background-size: cover;
+  /* border:1px solid red; */
+}
