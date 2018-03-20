@@ -9,3 +9,15 @@
   background-size: cover;
   /* border:1px solid red; */
 }
+
+#heading{
+    font-size: 10em;
+    letter-spacing: 2ch;
+    color:white;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    /* border:1px solid red; */
+}
