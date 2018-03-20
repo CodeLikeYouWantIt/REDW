@@ -1,13 +1,14 @@
 import React, {Component} from 'react'
+import './NavBar.css'
 // import { Link } from 'react-router-link'
 
 class NavBar extends Component {
     render (){
         return(
             <div class="navbar">
-                <a class="active" href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#news">Events</a>
+                <a href="#contact">The Team</a>
                 <a href="#about">About</a>
             </div>
         );
