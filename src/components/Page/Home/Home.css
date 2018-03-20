@@ -9,19 +9,20 @@
   background-size: cover;
 }
 
-.heading{
-    font-size:5em;
-    letter-spacing: 1.75em;
+.heading h1{
+    font-size:6em;
+    letter-spacing: 35px;
     color:white;
-    margin: auto;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 45%;
     width: 100%;
-    /* border:1px solid red; */
+    padding-left: 20px;
 }
 
-/* .heading span {
+
+/* 
+.heading span {
     opacity: 0;
     transition: opacity 1300ms
 }

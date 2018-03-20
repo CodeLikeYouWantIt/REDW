@@ -1,15 +1,21 @@
 import React, {Component} from 'react'
+import { slide as Menu } from 'react-burger-menu'
 import './NavBar.css'
 // import { Link } from 'react-router-link'
 
 class NavBar extends Component {
+    showSettings(event) {
+        event.preventDefault();
+
+    }
+
     render (){
         return(
             <div class="navbar">
-                <a href="#home">Home</a>
-                <a href="#news">Events</a>
-                <a href="#contact">The Team</a>
-                <a href="#about">About</a>
+                <a id="home" className="menu-item" href="/">Home</a>
+                <a id="about" className="menu-item" href="/about">About</a>
+                <a id="contact" className="menu-item" href="/contact">Contact</a>
+                <a className="menu-item--small" href="">Events</a>
             </div>
         );
     }

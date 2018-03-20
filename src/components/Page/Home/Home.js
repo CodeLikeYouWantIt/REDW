@@ -10,10 +10,12 @@ class Home extends Component {
             <div className="header">
                 <NavBar />
                 <div class="heading">
-                    <span>R</span>
-                    <span>E</span>
-                    <span>D</span>
-                    <span>W</span>
+                    <h1>
+                        <span>R</span>
+                        <span>E</span>
+                        <span>D</span>
+                        <span>W</span>
+                    </h1>
                 </div>
             </div>
             
