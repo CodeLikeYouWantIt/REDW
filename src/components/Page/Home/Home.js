@@ -8,7 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div className="header">
-                <NavBar />
+                <NavBar/>
                 <div class="heading">
                     <h1>
                         <span>R</span>
@@ -18,7 +18,6 @@ class Home extends Component {
                     </h1>
                 </div>
             </div>
-            
         );
     }
 }
