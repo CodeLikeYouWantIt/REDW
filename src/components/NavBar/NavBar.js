@@ -10,8 +10,9 @@ class NavBar extends Component {
                 <div class="navbar">
                     <a id="home" className="menu-item" href="/">Home</a>
                     <a id="about" className="menu-item" href="/about">About</a>
-                    <a id="contact" className="menu-item" href="/contact">Co</a>
-                    <a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>
+                    <a id="contact" className="menu-item" href="/contact">Contact</a>
+                    <a id="contact" className="menu-item" href="/contact">Events</a>
+                    <a onClick={this.showSettings} className="menu-item" href="">Blog</a>   
                 </div>
             </MediaQuery>
         );
