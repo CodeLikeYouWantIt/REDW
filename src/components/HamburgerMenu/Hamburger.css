@@ -16,6 +16,11 @@
 .menu-item{
   color:whitesmoke;
 }
+
+a:hover{
+  color:red;
+  text-decoration: none;
+}
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
