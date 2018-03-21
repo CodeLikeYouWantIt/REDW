@@ -1,0 +1,33 @@
+.introduction{
+    position: relative;
+    background: #ffffff;
+    padding:10%;
+    /* border:1px solid red; */
+    width:100%;  
+    text-align: center;
+}
+
+.about_statement{
+    width: 60%;
+    font-size:2em;
+    line-height: 170%;
+    margin: 0 auto;
+    color:rgb(168, 168, 168);
+    font-family: "Sentinel SSm A","Sentinel SSm B",Georgia,Times,serif;
+    font-weight: 300;
+}
+
+.about_statement span{
+    font-size:40px;
+}
+
+#reference{
+    color:red;
+    font-size:1em;
+}
+
+@media screen and (max-width: 600px) {
+  .about_statement{
+    width: 90%;
+  }
+}
