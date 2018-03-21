@@ -7,8 +7,7 @@ class AboutHome extends Component {
             <div class="introduction">
                 <div class="about_statement">
                     <p>
-                        <span>"</span>Jesus called his twelve disciples to him and gave them authority to 
-                        drive out impure spirits and to heal every disease and sickness.<span>"</span> <span id="reference">Matthew 10:1</span>
+                        <span>"</span>Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the LORD your God will be with you wherever you go.<span>"</span> <span id="reference">Joshua 1:9</span>
                     </p>
                 </div>
             </div>
