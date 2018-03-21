@@ -1,0 +1,45 @@
+.highlight {
+    text-align: center;
+    position: relative;
+    width:100%;
+}
+
+.highlight h1 {
+    color:rgb(41, 41, 41);
+    margin:0;
+    padding-top: 4%;
+}
+
+.highlight p{
+    position: relative;
+
+    width: 60%;
+    padding:5%;
+    margin:0 auto;
+    font-size:1.75em;
+    line-height: 170%;
+    color:rgb(168, 168, 168);
+    font-family: "Sentinel SSm A","Sentinel SSm B",Georgia,Times,serif;
+}
+
+.highlight span {
+    color:red;
+}
+
+@media screen and (max-width: 600px) {
+  .highlight p{
+    width: 90%;
+  }
+}
+.highlight img{
+    width:100%;
+    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 8s; /* Firefox < 16 */
+        -ms-animation: fadein 8s; /* Internet Explorer */
+         -o-animation: fadein 8s; /* Opera < 12.1 */
+            animation: fadein 8s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

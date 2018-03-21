@@ -3,6 +3,7 @@ import Home from '../Page/Home/Home'
 import Hamburger from '../HamburgerMenu/Hamburger'
 import AboutHome from '../Page/About/AboutHome'
 import Footer from '../Footer/Footer'
+import Highlight from '../Page/Highlight/Highlight'
 ;
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
                 <Hamburger/>
                 <Home/>
                 <AboutHome/>
+                <Highlight/>
                 <Footer/>
             </div>
         );
